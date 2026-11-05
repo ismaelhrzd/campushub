@@ -1,0 +1,401 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana Torres",
+      "correo": "admin1@utp.edu.pe",
+      "codigo": "U00000001",
+      "rol": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Mendoza",
+      "correo": "admin2@utp.edu.pe",
+      "codigo": "U00000002",
+      "rol": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 3,
+      "nombre": "Luis Quispe",
+      "correo": "u20231234@utp.edu.pe",
+      "codigo": "U20231234",
+      "rol": "estudiante",
+      "password": "est123"
+    },
+    {
+      "id": 4,
+      "nombre": "María Fernández",
+      "correo": "u20232345@utp.edu.pe",
+      "codigo": "U20232345",
+      "rol": "estudiante",
+      "password": "est123"
+    },
+    {
+      "id": 5,
+      "nombre": "Jorge Ramírez",
+      "correo": "u20233456@utp.edu.pe",
+      "codigo": "U20233456",
+      "rol": "estudiante",
+      "password": "est123"
+    },
+    {
+      "id": 6,
+      "nombre": "Lucía Vargas",
+      "correo": "u20234567@utp.edu.pe",
+      "codigo": "U20234567",
+      "rol": "estudiante",
+      "password": "est123"
+    },
+    {
+      "id": 7,
+      "nombre": "Diego Salazar",
+      "correo": "u20235678@utp.edu.pe",
+      "codigo": "U20235678",
+      "rol": "estudiante",
+      "password": "est123"
+    },
+    {
+      "id": 8,
+      "nombre": "Camila Rojas",
+      "correo": "u20236789@utp.edu.pe",
+      "codigo": "U20236789",
+      "rol": "estudiante",
+      "password": "est123"
+    }
+  ],
+  "laboratorios": [
+    {
+      "id": 1,
+      "nombre": "Lab A-301",
+      "sede": "Lima Centro",
+      "capacidad": 30,
+      "equipos": [
+        "PC i7",
+        "Proyector"
+      ],
+      "estado": "disponible"
+    },
+    {
+      "id": 2,
+      "nombre": "Lab B-205",
+      "sede": "Lima Sur",
+      "capacidad": 24,
+      "equipos": [
+        "PC i5",
+        "Arduino"
+      ],
+      "estado": "mantenimiento"
+    },
+    {
+      "id": 3,
+      "nombre": "Lab C-110",
+      "sede": "Lima Norte",
+      "capacidad": 40,
+      "equipos": [
+        "PC i7",
+        "Pizarra digital"
+      ],
+      "estado": "disponible"
+    },
+    {
+      "id": 4,
+      "nombre": "Lab A-402",
+      "sede": "Lima Centro",
+      "capacidad": 20,
+      "equipos": [
+        "Servidores",
+        "Switch Cisco"
+      ],
+      "estado": "disponible"
+    },
+    {
+      "id": 5,
+      "nombre": "Lab D-101",
+      "sede": "Arequipa",
+      "capacidad": 35,
+      "equipos": [
+        "PC i5",
+        "Proyector"
+      ],
+      "estado": "disponible"
+    },
+    {
+      "id": 6,
+      "nombre": "Lab B-310",
+      "sede": "Lima Sur",
+      "capacidad": 28,
+      "equipos": [
+        "Impresoras 3D",
+        "PC i7"
+      ],
+      "estado": "disponible"
+    },
+    {
+      "id": 7,
+      "nombre": "Lab C-215",
+      "sede": "Lima Norte",
+      "capacidad": 16,
+      "equipos": [
+        "Kits IoT",
+        "Arduino"
+      ],
+      "estado": "mantenimiento"
+    },
+    {
+      "id": 8,
+      "nombre": "Lab D-204",
+      "sede": "Arequipa",
+      "capacidad": 45,
+      "equipos": [
+        "PC i7",
+        "Proyector",
+        "Pizarra digital"
+      ],
+      "estado": "disponible"
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "codigo": "RES-0001",
+      "laboratorioId": 1,
+      "usuarioId": 3,
+      "fecha": "2026-11-20",
+      "horaInicio": "08:00",
+      "horaFin": "10:00",
+      "motivo": "Práctica de React",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-05T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "codigo": "RES-0002",
+      "laboratorioId": 1,
+      "usuarioId": 4,
+      "fecha": "2026-11-20",
+      "horaInicio": "10:00",
+      "horaFin": "12:00",
+      "motivo": "Taller de Angular",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-06T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "codigo": "RES-0003",
+      "laboratorioId": 1,
+      "usuarioId": 5,
+      "fecha": "2026-11-21",
+      "horaInicio": "14:00",
+      "horaFin": "16:00",
+      "motivo": "Proyecto de Node.js",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-07T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "codigo": "RES-0004",
+      "laboratorioId": 3,
+      "usuarioId": 6,
+      "fecha": "2026-11-20",
+      "horaInicio": "08:00",
+      "horaFin": "11:00",
+      "motivo": "Clase de reforzamiento",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-08T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "codigo": "RES-0005",
+      "laboratorioId": 3,
+      "usuarioId": 7,
+      "fecha": "2026-11-22",
+      "horaInicio": "09:00",
+      "horaFin": "11:00",
+      "motivo": "Prueba de redes",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "codigo": "RES-0006",
+      "laboratorioId": 4,
+      "usuarioId": 8,
+      "fecha": "2026-11-20",
+      "horaInicio": "15:00",
+      "horaFin": "17:00",
+      "motivo": "Práctica de Arduino",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-10T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "codigo": "RES-0007",
+      "laboratorioId": 4,
+      "usuarioId": 3,
+      "fecha": "2026-11-21",
+      "horaInicio": "08:00",
+      "horaFin": "10:00",
+      "motivo": "Asesoría de tesis",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-11T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "codigo": "RES-0008",
+      "laboratorioId": 5,
+      "usuarioId": 4,
+      "fecha": "2026-11-20",
+      "horaInicio": "13:00",
+      "horaFin": "15:00",
+      "motivo": "Taller de bases de datos",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-12T15:00:00Z"
+    },
+    {
+      "id": 9,
+      "codigo": "RES-0009",
+      "laboratorioId": 5,
+      "usuarioId": 5,
+      "fecha": "2026-11-23",
+      "horaInicio": "10:00",
+      "horaFin": "12:00",
+      "motivo": "Práctica de React",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-13T16:00:00Z"
+    },
+    {
+      "id": 10,
+      "codigo": "RES-0010",
+      "laboratorioId": 6,
+      "usuarioId": 6,
+      "fecha": "2026-11-21",
+      "horaInicio": "09:00",
+      "horaFin": "12:00",
+      "motivo": "Taller de Angular",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-05T17:00:00Z"
+    },
+    {
+      "id": 11,
+      "codigo": "RES-0011",
+      "laboratorioId": 6,
+      "usuarioId": 7,
+      "fecha": "2026-11-22",
+      "horaInicio": "16:00",
+      "horaFin": "18:00",
+      "motivo": "Proyecto de Node.js",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-06T08:00:00Z"
+    },
+    {
+      "id": 12,
+      "codigo": "RES-0012",
+      "laboratorioId": 8,
+      "usuarioId": 8,
+      "fecha": "2026-11-20",
+      "horaInicio": "07:00",
+      "horaFin": "09:00",
+      "motivo": "Clase de reforzamiento",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-07T09:00:00Z"
+    },
+    {
+      "id": 13,
+      "codigo": "RES-0013",
+      "laboratorioId": 8,
+      "usuarioId": 3,
+      "fecha": "2026-11-21",
+      "horaInicio": "11:00",
+      "horaFin": "13:00",
+      "motivo": "Prueba de redes",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-08T10:00:00Z"
+    },
+    {
+      "id": 14,
+      "codigo": "RES-0014",
+      "laboratorioId": 8,
+      "usuarioId": 4,
+      "fecha": "2026-11-24",
+      "horaInicio": "14:00",
+      "horaFin": "17:00",
+      "motivo": "Práctica de Arduino",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-09T11:00:00Z"
+    },
+    {
+      "id": 15,
+      "codigo": "RES-0015",
+      "laboratorioId": 1,
+      "usuarioId": 5,
+      "fecha": "2026-11-24",
+      "horaInicio": "08:00",
+      "horaFin": "09:30",
+      "motivo": "Asesoría de tesis",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": 16,
+      "codigo": "RES-0016",
+      "laboratorioId": 3,
+      "usuarioId": 6,
+      "fecha": "2026-11-25",
+      "horaInicio": "10:00",
+      "horaFin": "12:00",
+      "motivo": "Taller de bases de datos",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-11T13:00:00Z"
+    },
+    {
+      "id": 17,
+      "codigo": "RES-0017",
+      "laboratorioId": 4,
+      "usuarioId": 7,
+      "fecha": "2026-11-25",
+      "horaInicio": "09:00",
+      "horaFin": "11:00",
+      "motivo": "Práctica de React",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-12T14:00:00Z"
+    },
+    {
+      "id": 18,
+      "codigo": "RES-0018",
+      "laboratorioId": 5,
+      "usuarioId": 8,
+      "fecha": "2026-11-26",
+      "horaInicio": "15:00",
+      "horaFin": "18:00",
+      "motivo": "Taller de Angular",
+      "estado": "rechazada",
+      "creadoEn": "2026-11-13T15:00:00Z"
+    },
+    {
+      "id": 19,
+      "codigo": "RES-0019",
+      "laboratorioId": 6,
+      "usuarioId": 3,
+      "fecha": "2026-11-26",
+      "horaInicio": "08:00",
+      "horaFin": "10:00",
+      "motivo": "Proyecto de Node.js",
+      "estado": "aprobada",
+      "creadoEn": "2026-11-05T16:00:00Z"
+    },
+    {
+      "id": 20,
+      "codigo": "RES-0020",
+      "laboratorioId": 8,
+      "usuarioId": 4,
+      "fecha": "2026-11-27",
+      "horaInicio": "10:00",
+      "horaFin": "12:00",
+      "motivo": "Clase de reforzamiento",
+      "estado": "pendiente",
+      "creadoEn": "2026-11-06T17:00:00Z"
+    }
+  ]
+}
