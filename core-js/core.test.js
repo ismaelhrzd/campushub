@@ -106,3 +106,12 @@ test('generador de códigos con closure y padStart', () => {
   assert.equal(siguiente(), 'RES-0002');
   assert.equal(crearGeneradorCodigos('RES', 20)(), 'RES-0021');
 });
+import { validarUsuario } from './validadores.js';
+
+test('validarUsuario acepta datos válidos', () => {
+  assert.deepEqual(validarUsuario({ correo: 'u20231234@utp.edu.pe', codigo: 'U20231234' }), []);
+});
+
+test('validarUsuario reporta correo y código inválidos', () => {
+  assert.equal(validarUsuario({ correo: 'ana@gmail.com', codigo: '123' }).length, 2);
+});
