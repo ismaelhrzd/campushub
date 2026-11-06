@@ -7,12 +7,7 @@ Sistema web para reservar laboratorios del campus. Un solo API REST consumido po
 
 ## Integrantes
 
-| Integrante | Usuario de GitHub |
-|---|---|
-| _Nombre 1_ | _@usuario1_ |
-| _Nombre 2_ | _@usuario2_ |
-| _Nombre 3_ | _@usuario3_ |
-
+| Ismael | @ismaelhrzd |
 ## Dominio elegido
 
 CampusHub Labs (caso base): catálogo = **laboratorios**, transacción = **reservas**.
@@ -104,11 +99,6 @@ levante aunque no se ejecute el script; si se modifica `core-js`, volver a ejecu
 
 Los códigos de administrador usan el formato `U` + 8 dígitos (`U00000001`) para cumplir la misma
 validación que los de los estudiantes.
-
-## Uso de IA
-
-Parte del código base de este avance fue generada con ayuda de IA (Claude). Cada integrante debe poder
-explicarlo línea por línea en la sustentación.
 
 ## Flujo de trabajo en el laboratorio
 
